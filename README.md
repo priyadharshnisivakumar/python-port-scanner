@@ -2,14 +2,27 @@
 Basic port scanner using Python
 # Python Port Scanner
 
-This project is a basic port scanner built using Python.
+A simple port scanner built using Python sockets.  
+This tool scans a target IP address and identifies open ports.
 
 ## Features
-- Scans ports 1–1024
-- Detects open ports
-- Uses socket module
+- Scan ports 1–1024
+- Detect open ports
+- Fast scanning using socket module
+- Beginner cybersecurity project
 
-## How to run
+## Requirements
+Python 3.x
+
+## How to Run
 python port_scanner.py
 
-Enter target IP address.
+Enter target IP address when prompted.
+
+## Example
+Enter target IP: 127.0.0.1
+Port 80 is open
+Port 443 is open
+
+## Author
+Priya Dharshni
